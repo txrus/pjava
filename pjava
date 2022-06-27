@@ -1,0 +1,10 @@
+#!/bin/bash
+# Author: Tor
+# Date Created: 19/06/65
+# Description: run processing-java with script for convenient
+# Date Modified: 27/06/65
+
+echo Run processing-java...
+rm -rf /tmp/processing
+mkdir /tmp/processing
+processing-java --output=/tmp/processing --force --sketch=$PWD/$1 --run
