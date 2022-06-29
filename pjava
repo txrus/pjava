@@ -5,6 +5,6 @@
 # Date Modified: 27/06/65
 
 echo Run processing-java...
-rm -rf /tmp/processing
-mkdir /tmp/processing
+rm -rf ~/tmp/processing
+mkdir ~/tmp/processing
 processing-java --output=/tmp/processing --force --sketch=$PWD/$1 --run
