@@ -7,4 +7,4 @@
 echo Run processing-java...
 rm -rf /tmp/processing
 mkdir /tmp/processing
-./home/democritus/stuffs/processing-4.0b8/processing-java --output=/tmp/processing --force --sketch=$PWD/$1 --run
+processing-java --output=/tmp/processing --force --sketch=$PWD/$1 --run
